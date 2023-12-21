@@ -12,7 +12,7 @@ Once you have Node.js follow these steps:
  ```
 1. Clone the repository: 
 
-git clone https://github.com/Bhavesh29patil/expensemanagement.git
+git clone https://github.com/YashCyanide/BitSave.git
 
 2. Navigate to the project directory: 
 
@@ -21,27 +21,28 @@ cd expensemanagement
 3. Install the dependencies: 
 npm install
 
-4. Start the server: 
-
-npm start 
-
-5. Start server and app concurrently:
+4. Start server and app concurrently:(outside of client directory)
 
 npm run dev
 
 ```
 ## Features
 
-### Expense Tracker
+### BitSave
 
 - Perform CRUD operations on transactions categorized into Income/Expenses.
 - View transactions in a list or in Chart form for comparison.
-- Filter Transaction according to its type, date. 
+- Filter Transaction according to its type, date.
+- Uses the Bootstrap and ANTui for better visuals
+- Perform User Login authentication and Registration
+- keep data of users separate
+- uses nodejs , expressjs and MongoDb database for strong and reliable Backend
 
 ## Folder Structure
 
 
-![image](https://user-images.githubusercontent.com/100946390/235478986-9d0bb250-5a9d-4252-be2a-d56e1a472b1f.png)
+![image](https://github.com/YashCyanide/BitSave/assets/103525833/f9c5ffc8-ba37-459b-8096-c6c741b73b82)
+
 
 ## Dependencies in Root Directory
 
